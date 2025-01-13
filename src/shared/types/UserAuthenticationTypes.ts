@@ -6,5 +6,5 @@ export interface UserAuthentication {
   passwordHash: string;
   refreshToken: string;
   user: User;
-  created_at: Date;
+  createdAt: Date;
 }

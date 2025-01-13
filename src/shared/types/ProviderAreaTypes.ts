@@ -5,5 +5,5 @@ export interface ProviderArea {
   id: number;
   provider: ServiceProvider;
   category: Category;
-  created_at: Date;
+  createdAt: Date;
 }

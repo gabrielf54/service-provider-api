@@ -3,10 +3,10 @@ import { User } from "./UserTypes";
 export interface ServiceProvider {
   id: number;
   bio: string;
-  years_experience: number;
-  profile_picture: string;
+  yearsExperience: number;
+  profilePicture: string;
   user: User;
-  deleted_at: Date | null;
-  created_at: Date;
+  deletedAt: Date | null;
+  createdAt: Date;
 }
 

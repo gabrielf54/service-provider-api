@@ -3,11 +3,11 @@ import { ServiceOrderConfirmation } from "./ServiceOrderConfirmationTypes";
 
 export interface ServicePaymentConfirmation {
   id: number;
-  service_order: ServiceOrderConfirmation;
-  payment_status: PaymentStatus;
+  serviceOrder: ServiceOrderConfirmation;
+  paymentStatus: PaymentStatus;
   value: number;
-  payment_date: Date;
-  payment_method: string;
-  deleted_at: Date | null;
-  created_at: Date;
+  paymentDate: Date;
+  paymentMethod: string;
+  deletedAt: Date | null;
+  createdAt: Date;
 }

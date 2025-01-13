@@ -6,7 +6,7 @@ export interface User {
   document: string;
   phone: string;
   auth: UserAuthentication;
-  user_type: "client" | "provider";
-  deleted_at: Date | null;
-  created_at: Date;
+  userType: "client" | "provider";
+  deletedAt: Date | null;
+  createdAt: Date;
 }
