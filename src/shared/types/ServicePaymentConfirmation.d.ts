@@ -1,7 +1,7 @@
-import { PaymentStatus } from "./PaymentStatusTypes";
-import { ServiceOrderConfirmation } from "./ServiceOrderConfirmationTypes";
+import { PaymentStatus } from "./PaymentStatus";
+import { ServiceOrderConfirmation } from "./ServiceOrderConfirmation";
 
-export interface ServicePaymentConfirmation {
+declare interface ServicePaymentConfirmation {
   id: number;
   serviceOrder: ServiceOrderConfirmation;
   paymentStatus: PaymentStatus;

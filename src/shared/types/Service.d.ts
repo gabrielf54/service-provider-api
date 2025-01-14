@@ -1,8 +1,8 @@
-import { Client } from "./ClientTypes";
-import { ServiceProvider } from "./ServiceProviderTypes";
-import { ServiceStatus } from "./ServiceStatusTypes";
+import { Client } from "./Client";
+import { ServiceProvider } from "./ServiceProvider";
+import { ServiceStatus } from "./ServiceStatus";
 
-export interface Service {
+declare interface Service {
   id: number;
   title: string;
   description: string;

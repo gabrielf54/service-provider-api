@@ -1,6 +1,6 @@
-import { User } from "./UserTypes";
+import { User } from "./User";
 
-export interface Client {
+declare interface Client {
   id: number;
   address: string;
   birthDate: Date;

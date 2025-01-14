@@ -1,6 +1,6 @@
-import { User } from "./UserTypes";
+import { User } from "./User";
 
-export interface ServiceProvider {
+declare interface ServiceProvider {
   id: number;
   bio: string;
   yearsExperience: number;

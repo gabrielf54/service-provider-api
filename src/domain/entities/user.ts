@@ -1,7 +1,5 @@
-import { UserAuthentication } from "@shared/types/UserAuthenticationTypes";
-import { User } from "@shared/types/UserTypes";
 
-export class Users {
+export class UserEntity {
   id: number | undefined;
   name: string | undefined;
   document: string | undefined;

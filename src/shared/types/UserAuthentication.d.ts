@@ -1,6 +1,4 @@
-import { User } from "./UserTypes";
-
-export interface UserAuthentication {
+declare interface UserAuthentication {
   id: number;
   email: string;
   passwordHash: string;

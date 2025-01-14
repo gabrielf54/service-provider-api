@@ -1,6 +1,4 @@
-import { UserAuthentication } from "./UserAuthenticationTypes";
-
-export interface User {
+declare interface User {
   id: number;
   name: string;
   document: string;

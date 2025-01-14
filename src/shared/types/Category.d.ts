@@ -1,4 +1,4 @@
-export interface Category {
+declare interface Category {
     id: number;
     name: string;
     createdAt: Date;
